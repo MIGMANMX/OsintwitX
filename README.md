@@ -60,9 +60,11 @@
 ### Crea un archivo .env en la misma carpeta donde está el script.
 - Añade tus credenciales de Twitter en el archivo .env con este formato:
 
+`` 
 TWITTER_USERNAME=tu_usuario
 TWITTER_EMAIL=tu_email@example.com
 TWITTER_PASSWORD=tu_contraseña
+``
 
 - Guarda el archivo.
 
@@ -71,8 +73,10 @@ TWITTER_PASSWORD=tu_contraseña
 ## 🚀 Ejecucion
 ### Cada vez que quieras ejecutar el script, activa el entorno virtual con:
 
-`source OsintwitX/bin/activate`
-`python3 OsintwitX.py `
+``
+source OsintwitX/bin/activate
+python3 OsintwitX.py 
+``
 
 ✏️ Ejemplo de uso:
 
@@ -80,6 +84,8 @@ TWITTER_PASSWORD=tu_contraseña
 - Para ver información de un usuario, selecciona 2 e ingresa su @usuario.
 - Para obtener las tendencias actuales, selecciona 5.
 📌 Los datos obtenidos se guardan en archivos JSON o CSV automáticamente.
+
+
 
 
 
