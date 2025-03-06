@@ -89,7 +89,7 @@ python3 OsintwitX.py
 - Para obtener las tendencias actuales, selecciona 5.
 📌 Los datos obtenidos se guardan en archivos JSON o CSV automáticamente.
 
-![This is an alt text.](/image/sample.webp "This is a sample image.")
+![Menu](foto/menu.png)
 
 
 
