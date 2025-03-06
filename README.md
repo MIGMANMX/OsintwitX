@@ -1,44 +1,49 @@
 # OsintwitX
-🔥 Este script te ayudará a obtener información clave sobre cualquier usuario de Twitter en segundos. Aqui las funciones utilizadas apartir una biblioteca de Python ( [Twikit](https://github.com/d60/twikit) )que permite interactuar con la API interna de Twitter sin necesidad de una clave de API. Esto se logra mediante técnicas de scraping, facilitando el acceso a diversas funcionalidades de Twitter de forma gratuita.
+🔥 Este script te ayudará a obtener información clave sobre cualquier usuario de Twitter en segundos. Aqui las funciones utilizadas apartir una biblioteca de Python ( [Twikit](https://github.com/d60/twikit) ) que permite interactuar con la API interna de Twitter sin necesidad de una clave de API. Esto se logra mediante técnicas de scraping, facilitando el acceso a diversas funcionalidades de Twitter de forma gratuita.
 
-🔎 Búsqueda y obtención de información
-search_tweet(query: str): Buscar tweets con palabras clave o hashtags.
-search_user(query: str): Buscar usuarios por nombre o palabra clave.
-get_user_by_screen_name(username: str): Obtener información de un usuario por su @usuario.
-get_user_by_id(user_id: str): Obtener información de un usuario por su ID de Twitter.
-get_user_tweets(user_id: str): Obtener los tweets de un usuario específico.
-get_trends(): Obtener temas de tendencia en Twitter.
-get_place_trends(woeid: int): Obtener tendencias en una ubicación específica.
-👉 Útil para:
+- 🔎 Búsqueda y obtención de información
+    * search_tweet(query: str): Buscar tweets con palabras clave o hashtags
+    * search_user(query: str): Buscar usuarios por nombre o palabra clave.
+    * get_user_by_screen_name(username: str): Obtener información de un usuario por su @usuario.
+    * get_user_by_id(user_id: str): Obtener información de un usuario por su ID de Twitter.
+    * get_user_tweets(user_id: str): Obtener los tweets de un usuario específico.
+    * get_trends(): Obtener temas de tendencia en Twitter.
+    * get_place_trends(woeid: int): Obtener tendencias en una ubicación específica.
 
-Identificar a personas relacionadas con un tema.
-Buscar tweets recientes sobre eventos importantes.
-Ver tendencias y posibles campañas de desinformación.
-👤 Investigación de perfiles
-get_user_followers(user_id: str): Obtener los seguidores de un usuario.
-get_user_following(user_id: str): Obtener las cuentas que sigue un usuario.
-get_lists(user_id: str): Ver las listas en las que un usuario está agregado.
-👉 Útil para:
+- 👉 Útil para:
 
-Analizar la red de contactos de una persona.
-Identificar cuentas asociadas con grupos o movimientos.
-Ver en qué listas públicas ha sido agregado un usuario.
-🕵️ Análisis de comunidades y grupos
-search_community(query: str): Buscar comunidades en Twitter.
-get_community(community_id: str): Obtener información de una comunidad.
-get_community_tweets(community_id: str): Obtener tweets de una comunidad.
-👉 Útil para:
+    * Identificar a personas relacionadas con un tema.
+    * Buscar tweets recientes sobre eventos importantes.
+    * Ver tendencias y posibles campañas de desinformación.
 
-Investigar grupos y comunidades relacionadas con un tema.
-Analizar qué se dice dentro de una comunidad específica.
-Identificar usuarios influyentes dentro de un grupo.
-📡 Monitoreo de actividad
-get_notifications(): Obtener las notificaciones de la cuenta.
-get_dm_history(): (Si tienes acceso a una cuenta) Ver el historial de mensajes directos.
-👉 Útil para:
+- 👤 Investigación de perfiles
+    * get_user_followers(user_id: str): Obtener los seguidores de un usuario.
+    * get_user_following(user_id: str): Obtener las cuentas que sigue un usuario.
+    * get_lists(user_id: str): Ver las listas en las que un usuario está agregado.
 
-Monitorear menciones y respuestas a tweets clave.
-Identificar patrones de interacción en tiempo real.
+- 👉 Útil para:
+
+    * Analizar la red de contactos de una persona.
+    * Identificar cuentas asociadas con grupos o movimientos.
+    * Ver en qué listas públicas ha sido agregado un usuario.
+
+- 🕵️ Análisis de comunidades y grupos
+    * search_community(query: str): Buscar comunidades en Twitter.
+    * get_community(community_id: str): Obtener información de una comunidad.
+    * get_community_tweets(community_id: str): Obtener tweets de una comunidad.
+
+- 👉 Útil para:
+    * Investigar grupos y comunidades relacionadas con un tema.
+    * Analizar qué se dice dentro de una comunidad específica.
+    * Identificar usuarios influyentes dentro de un grupo.
+  
+- 📡 Monitoreo de actividad
+    * get_notifications(): Obtener las notificaciones de la cuenta.
+    * get_dm_history(): (Si tienes acceso a una cuenta) Ver el historial de mensajes directos.
+
+- 👉 Útil para:
+    * Monitorear menciones y respuestas a tweets clave.
+    * Identificar patrones de interacción en tiempo real.
 
 
 ##  🔧 Configuracion | Comenzando
